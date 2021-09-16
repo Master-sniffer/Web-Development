@@ -1,0 +1,18 @@
+body {
+    background-color: black;
+    text-align: center;
+}
+
+body h1 {
+    color: white;
+}
+
+
+.les {
+    background-color: white;
+    position: relative;
+    height: 50%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
