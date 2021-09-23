@@ -26,6 +26,22 @@ function f() {
         document.body.style.backgroundColor = "#ffffff";
     }
 
-    else { alert('Ты даун') }
+    else if (selectedOption.value === 'yellow') {
+        document.body.style.backgroundColor = "#efca66";
+    }
+
+    else if (selectedOption.value === 'grey') {
+        document.body.style.backgroundColor = "#909cac";
+    }
+
+    else if (selectedOption.value === 'brown') {
+        document.body.style.backgroundColor = "#a47053";
+    }
+
+    else if (selectedOption.value === 'purple') {
+        document.body.style.backgroundColor = "#bb99b7";
+    }
+
+    else { alert('ALERT-ALERT!') }
 
 }
